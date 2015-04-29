@@ -4,7 +4,118 @@
  *
  * Site Styles
  *****************************************************************************/
+html {
+	margin:0;
+	padding: 0; 
+}
 
- html {
-     color: green;
+header {
+	text-align: center; 
+}
+
+header img {
+	min-height: 400px; 
+	width: 100%; 
+}
+nav {
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+	text-align: center; 
+}
+
+nav ul li {
+    display:inline;
+	padding-left:100px;
+	padding-right:100px;
+	font-size: large; 
+}
+
+#social { 
+	text-align: center; 
+	position: fixed;
+	top: 10px;
+	right: 10px; 
+	border: 2px solid black; 
+	width: 60px; 
+	text-decoration: none; 
+	transition: 2s width; 
+	background-color:#CBFAF2 ;
+}
+
+.social-links {
+	list-style-type:none; 
+	margin-left: 0;
+	padding: 0; 
+}
+
+#social:hover {
+	width: 200px;
+}
+
+
+.facebook img {
+	width:30px;
+	height:30px; 
+}
+
+.instagram img {
+	width:30px;
+	height:30px; 
+}
+
+.twitter img {
+	width:30px;
+	height:30px; 
+}
+
+footer img {
+	min-height: 400px; 
+	width: 100%; 
+}
+
+.download-button {
+	height: 30px;
+	width: 75px;
+	border-radius: 5px;
+	border-color: black; 
+	border-style: solid; 
+	border-width: 2px; 
+	background-color: lightcyan;
+	padding: 10px; 
+	margin-top: 10px;
+}
+
+.lead img {
+	width: auto;
+	height: 200px;
+}
+ .weybec-people li {
+	 list-style-type:none;
  }
+
+.headshot {
+	display: inline-block; 
+	width: 350px;
+	height: auto;
+}
+
+table {
+	text-align:center; 
+}
+td {
+	padding: 30px; 
+}
+
+.lead {
+	height: 50px;
+	width: 95%;
+	border-radius: 5px;
+	border-color: blue; 
+	border-style: solid; 
+	border-width: 2px; 
+	text-align: center; 
+	padding: 15px;
+}
+
+
+
